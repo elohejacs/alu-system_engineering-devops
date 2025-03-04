@@ -1,4 +1,8 @@
-#!/usr/bin/env bash
+#!/bin/bash
+# 1-create_ssh_key_pair
 
-# Generate the RSA key pair with the required specifications
+# Generate RSA key pair with the following options:
+# - Name the private key "school"
+# - Key size of 4096 bits
+# - Passphrase "betty" for the private key
 ssh-keygen -t rsa -b 4096 -f school -N "betty"
