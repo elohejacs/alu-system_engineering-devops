@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# load balancer configuration
 # Update the package list
 sudo apt-get update
 
