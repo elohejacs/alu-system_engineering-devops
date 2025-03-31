@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# configure an Ubuntu server to run Nginx
 # Update the package list
 apt-get update
 
